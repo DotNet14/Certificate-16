@@ -1,6 +1,7 @@
 import { bootstrapApplication } from '@angular/platform-browser';
 import { appConfig } from './app/app.config';
 import { App } from './app/app';
+import { Voucher } from './app/voucher/voucher';
 
-bootstrapApplication(App, appConfig)
+bootstrapApplication(Voucher, appConfig)
   .catch((err) => console.error(err));
